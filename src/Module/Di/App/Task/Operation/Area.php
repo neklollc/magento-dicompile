@@ -56,7 +56,7 @@ class Area implements OperationInterface
         App\AreaList $areaList,
         \Magento\Setup\Module\Di\Code\Reader\Decorator\Area $areaInstancesNamesList,
         Config\Reader $configReader,
-        Config\WriterInterface $configWriter,
+        \Magento\Framework\App\ObjectManager\ConfigWriterInterface $configWriter,
         Config\ModificationChain $modificationChain,
         \Magento\Framework\App\Filesystem\DirectoryList $directoryList,
         $data = []
